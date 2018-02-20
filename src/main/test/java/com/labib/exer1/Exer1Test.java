@@ -20,7 +20,7 @@ public class Exer1Test {
     @Test
     public void secondTest() {
         long n = 2;
-        long expectedResult = 2;
+        long expectedResult = 1;
         long actualResult = Exer1.sumFunc(n);
         Assert.assertEquals(expectedResult, actualResult);
     }
