@@ -1,5 +1,9 @@
 package com.labib.exer1;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
+import java.util.Scanner;
+
 /**
  * @author Artem Karnov @date 2/13/2018.
  * @email artem.karnov@t-systems.com
@@ -13,6 +17,7 @@ public class Exer1 {
                 n =1;
             }else {
                 sum = sum + i;
+                System.out.println(sum);
 
             }
 
@@ -24,7 +29,10 @@ public class Exer1 {
     public static void main(String[] args) {
         Exer1 p = new Exer1();
 
-         p.sumFunc(2);
+
+        p.sumFunc(1);
+
+
 
     }
 }
