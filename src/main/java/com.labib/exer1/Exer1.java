@@ -13,7 +13,7 @@ public class Exer1 {
     public static long sumFunc(long n) {
         long sum = 0;
         for (int i = 1; i <= n; i++) {
-            if(n==2){
+            if(n ==2 ){
                 n =1;
             }else {
                 sum = sum + i;
@@ -25,12 +25,29 @@ public class Exer1 {
         return n;
 
     }
+    public static long sumFunc2(long q){
+
+        long sum = 0 ;
+        for (int i = 1; i <= q ; i++) {
+            if(q == 3){
+                q=1;
+            }else{
+                sum =sum +i;
+            }
+        }
+        return q;
+    }
+
+
 
     public static void main(String[] args) {
         Exer1 p = new Exer1();
+        Exer1 m = new Exer1();
+        Exer1 r = new Exer1();
 
 
-        p.sumFunc(1);
+        p.sumFunc(2);
+        m.sumFunc2(3);
 
 
 

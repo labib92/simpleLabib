@@ -27,16 +27,16 @@ public class Exer1Test {
 
     @Test
     public void thirdTest() {
-        long n = 3;
-        long expectedResult = 3;
-        long actualResult = Exer1.sumFunc(n);
+        long q = 3;
+        long expectedResult = 1;
+        long actualResult = Exer1.sumFunc2(q);
         Assert.assertEquals(expectedResult, actualResult);
     }
 
     @Test
     public void fourthTest() {
-        long n = 4;
-        long expectedResult = 4;
+        long n = -10;
+        long expectedResult = -10;
         long actualResult = Exer1.sumFunc(n);
         Assert.assertEquals(expectedResult, actualResult);
     }
